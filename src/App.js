@@ -1,10 +1,14 @@
 import './App.css';
-import Home from './Components/Home';
+import First from './Components/First';  
+import Event from './Components/Event';
+import Sum from './Components/Sum';
 
 function App() {
   return (
     <>
-    <Home></Home>
+    {/* <First></First> */}
+    <Event></Event>
+    <Sum></Sum>
     </>
   );
 }
