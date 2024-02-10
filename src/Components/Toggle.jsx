@@ -5,18 +5,17 @@ function Toggle() {
         var root = document.getElementById("test");
         var currentBackgroundColor = root.style.backgroundColor;
 
-
         // by using ternary operator
-        // root.style.backgroundColor = root.style.backgroundColor === "blue" ? "white" : "blue";
+        root.style.backgroundColor = root.style.backgroundColor === "blue" ? "white" : "blue";
 
         // Check if it's dark mode, change to light mode
-        if (currentBackgroundColor === "black") {
-            root.style.backgroundColor = "white";
-        }
-        else {
-            // It's light mode, change to dark mode
-            root.style.backgroundColor = "black";
-        }
+        // if (currentBackgroundColor === "black") {
+        //     root.style.backgroundColor = "white";
+        // }
+        // else {
+        //     // It's light mode, change to dark mode
+        //     root.style.backgroundColor = "black";
+        // }
     };
 
     return (

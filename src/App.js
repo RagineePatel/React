@@ -6,17 +6,23 @@ import Prop2 from './Components/Prop2';
 import Darkmode from './Components/Darkmode';
 import Toggle from './Components/Toggle';
 import Increase from './Components/Increment';
+import Example from './Hooks/Usestate';
+import Effect from './Hooks/Useeffect';
+import Apidataget from './Hooks/Api';
 
 function App() {
   return (
     <>
-    {/* <First></First> */}
-    {/* <Event></Event> */}
-    {/* <Sum></Sum> */}
-    {/* <Prop2></Prop2> */}
-    {/* <Darkmode></Darkmode> */}
-    {/* <Toggle></Toggle> */}
-    <Increase></Increase>
+    {/* <First/> */}
+    {/* <Event/> */}
+    {/* <Sum/> */}
+    {/* <Prop2/> */}
+    {/* <Darkmode/> */}
+    {/* <Toggle/> */}
+    {/* <Increase/> */}
+    {/* <Example/> */}
+    <Apidataget/>
+    {/* <Effect/> */}
     </>
   );
 }

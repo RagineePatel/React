@@ -22,7 +22,7 @@ function Increase (){
         <button onClick={()=>Decrement()}>Decrement</button>
         <button onClick={()=>Multiply()}>square</button>
         <button onClick={()=>Divide()}>Divide</button>
-
+        
         </>
     )
 }
